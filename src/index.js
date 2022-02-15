@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Sidebar from './components/Sidebar';
+import Playlists from './components/Playlists';
+import Favorites from './components/Favorites';
+import CreatePlaylist from './components/CreatePlaylist';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Sidebar />
+      <Switch>
+        <Route path="/" exact>
+          <App />
+        </Route>
+        <Route path="/create">
+          <CreatePlaylist />
+        </Route>
+        <Route path="/playlists">
+          <Playlists />
+        </Route>
+        <Route path="/favorites">
+          <Favorites />
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

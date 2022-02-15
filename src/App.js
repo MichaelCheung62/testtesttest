@@ -1,23 +1,52 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 
+import { getTokenFromUrl } from './spotify';
+
+import Login from './components/Login';
+
 function App() {
+  const [spotifyToken, setSpotifyToken] = useState([]);
+
+  useEffect(() => {
+    const token = window.localStorage.getItem('token');
+
+    if (token) {
+      setSpotifyToken(token);
+      return;
+    }
+
+    const accessToken = getTokenFromUrl();
+    window.location.hash = '';
+
+    if (!accessToken) {
+      setSpotifyToken('');
+      window.localStorage.removeItem('token');
+      return;
+    }
+
+    setSpotifyToken(accessToken);
+    window.localStorage.setItem('token', accessToken);
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!spotifyToken ? (
+        <Login />
+      ) : (
+        <div>
+          {/* <Search token={spotifyToken} setData={setData} />
+
+          <div>
+            {data.map((item) => (
+              <div key={item.id}>{item.name}</div>
+            ))}
+          </div> */}
+
+          {/* <CreatePlaylist /> */}
+        </div>
+      )}
     </div>
   );
 }

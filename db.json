@@ -1,0 +1,283 @@
+{
+  "user": {
+    "name": "Michael",
+    "email": "michael@example.com"
+  },
+  "playlists": [
+    {
+      "title": "cool",
+      "favorite": false,
+      "tracks": [
+        {
+          "id": "7jiu0Xu4Zz0L6hro5nHuGc",
+          "name": "liveDevil - 『仮面ライダーリバイス』主題歌",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/71UIOLnsacxQHlU55TvfiH"
+              },
+              "href": "https://api.spotify.com/v1/artists/71UIOLnsacxQHlU55TvfiH",
+              "id": "71UIOLnsacxQHlU55TvfiH",
+              "name": "Da-iCE",
+              "type": "artist",
+              "uri": "spotify:artist:71UIOLnsacxQHlU55TvfiH"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7xgoSh8BBoyKV02juTgUag"
+              },
+              "href": "https://api.spotify.com/v1/artists/7xgoSh8BBoyKV02juTgUag",
+              "id": "7xgoSh8BBoyKV02juTgUag",
+              "name": "木村昴",
+              "type": "artist",
+              "uri": "spotify:artist:7xgoSh8BBoyKV02juTgUag"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2734d84e2fb40eef34c6bd5c667",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e024d84e2fb40eef34c6bd5c667",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048514d84e2fb40eef34c6bd5c667",
+                "width": 64
+              }
+            ]
+          }
+        },
+        {
+          "id": "7CiyhSnOzOQgss4t1cf4cx",
+          "name": "仮面ライダーAGITO - 『超英雄祭』 LIVE",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7AXxSkTtkVxMDD8ynCnFon"
+              },
+              "href": "https://api.spotify.com/v1/artists/7AXxSkTtkVxMDD8ynCnFon",
+              "id": "7AXxSkTtkVxMDD8ynCnFon",
+              "name": "Shinichi Ishihara",
+              "type": "artist",
+              "uri": "spotify:artist:7AXxSkTtkVxMDD8ynCnFon"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273ab95f706bfe18b4b687e1ec1",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02ab95f706bfe18b4b687e1ec1",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851ab95f706bfe18b4b687e1ec1",
+                "width": 64
+              }
+            ]
+          }
+        },
+        {
+          "id": "1uZgkJfHK0kwCKCyT0ySBV",
+          "name": "Kamen Rider Saber",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0UZq6vAHrwGgctvxTzzxYm"
+              },
+              "href": "https://api.spotify.com/v1/artists/0UZq6vAHrwGgctvxTzzxYm",
+              "id": "0UZq6vAHrwGgctvxTzzxYm",
+              "name": "Tokyo Ska Paradise Orchestra",
+              "type": "artist",
+              "uri": "spotify:artist:0UZq6vAHrwGgctvxTzzxYm"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273cbfa6087ef659cff7b5f248a",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02cbfa6087ef659cff7b5f248a",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851cbfa6087ef659cff7b5f248a",
+                "width": 64
+              }
+            ]
+          }
+        },
+        {
+          "id": "4dteI80q33W2o8qb150La6",
+          "name": "LiveDevil(ショートVer)「仮面ライダーリバイス」より[カバー]",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2uikPR2mfBuuLoKebdntbO"
+              },
+              "href": "https://api.spotify.com/v1/artists/2uikPR2mfBuuLoKebdntbO",
+              "id": "2uikPR2mfBuuLoKebdntbO",
+              "name": "サウンドワークス",
+              "type": "artist",
+              "uri": "spotify:artist:2uikPR2mfBuuLoKebdntbO"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27335744551642853cd5cf8e05a",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0235744551642853cd5cf8e05a",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485135744551642853cd5cf8e05a",
+                "width": 64
+              }
+            ]
+          }
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "nicely",
+      "favorite": false,
+      "tracks": [
+        {
+          "id": "5mPABvKKNQkYZt7i5LRDzf",
+          "name": "創聖のアクエリオン 熱輝合体Ver.",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5prZMLWMrc5TwTJ1dGylBM"
+              },
+              "href": "https://api.spotify.com/v1/artists/5prZMLWMrc5TwTJ1dGylBM",
+              "id": "5prZMLWMrc5TwTJ1dGylBM",
+              "name": "福山芳樹",
+              "type": "artist",
+              "uri": "spotify:artist:5prZMLWMrc5TwTJ1dGylBM"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273647975e4c03e28df163bdbe3",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02647975e4c03e28df163bdbe3",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851647975e4c03e28df163bdbe3",
+                "width": 64
+              }
+            ]
+          }
+        },
+        {
+          "id": "7jiu0Xu4Zz0L6hro5nHuGc",
+          "name": "liveDevil - 『仮面ライダーリバイス』主題歌",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/71UIOLnsacxQHlU55TvfiH"
+              },
+              "href": "https://api.spotify.com/v1/artists/71UIOLnsacxQHlU55TvfiH",
+              "id": "71UIOLnsacxQHlU55TvfiH",
+              "name": "Da-iCE",
+              "type": "artist",
+              "uri": "spotify:artist:71UIOLnsacxQHlU55TvfiH"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7xgoSh8BBoyKV02juTgUag"
+              },
+              "href": "https://api.spotify.com/v1/artists/7xgoSh8BBoyKV02juTgUag",
+              "id": "7xgoSh8BBoyKV02juTgUag",
+              "name": "木村昴",
+              "type": "artist",
+              "uri": "spotify:artist:7xgoSh8BBoyKV02juTgUag"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2734d84e2fb40eef34c6bd5c667",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e024d84e2fb40eef34c6bd5c667",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048514d84e2fb40eef34c6bd5c667",
+                "width": 64
+              }
+            ]
+          }
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "tttt",
+      "favorite": false,
+      "tracks": [],
+      "id": 3
+    },
+    {
+      "title": "",
+      "favorite": false,
+      "tracks": [],
+      "id": 4
+    },
+    {
+      "title": "dra",
+      "favorite": false,
+      "tracks": [],
+      "id": 5
+    },
+    {
+      "title": "",
+      "favorite": false,
+      "tracks": [],
+      "id": 6
+    },
+    {
+      "title": "",
+      "favorite": false,
+      "tracks": [],
+      "id": 7
+    }
+  ],
+  "favorites": []
+}
