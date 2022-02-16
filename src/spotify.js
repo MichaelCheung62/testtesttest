@@ -17,14 +17,26 @@ export const getTokenFromUrl = () => {
 
   if (!hash) return;
 
-  const token = hash
-    .substring(1)
-    .split('&')
-    .find((element) => element.startsWith('access_token'))
-    .split('=')[1];
+  const searchParams = new URLSearchParams(hash.substring(1));
+  const accessToken = searchParams.get('access_token');
 
-  return token;
+  return accessToken;
 };
+
+export const getExpiresInFromUrl = () => {
+  const hash = window.location.hash;
+
+  if (!hash) return;
+
+  console.log(hash);
+
+  const searchParams = new URLSearchParams(hash.substring(1));
+  const expiresIn = parseInt(searchParams.get('expires_in'), 10);
+
+  console.log(expiresIn);
+
+  return expiresIn;
+}
 
 export const searchQuery = async (token, type = 'artist', query) => {
   const { data } = await axios.get(SEARCH_ENDPOINT, {

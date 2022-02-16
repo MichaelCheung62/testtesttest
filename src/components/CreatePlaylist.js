@@ -43,7 +43,6 @@ function CreatePlaylist() {
         <Redirect to="/" />
       ) : (
         <div>
-          <Search token={spotifyToken} tracks={tracks} setTracks={setTracks} />
           <form onSubmit={handlePlaylistSubmit}>
             <label>
               Title
@@ -56,6 +55,7 @@ function CreatePlaylist() {
             <button type="submit">Create Playlist</button>
             <ul>{tracks.length}</ul>
           </form>
+          <Search token={spotifyToken} tracks={tracks} setTracks={setTracks} />
         </div>
       )}
     </div>

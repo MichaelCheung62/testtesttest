@@ -4,7 +4,7 @@ import { loginUrl } from '../spotify';
 function Login() {
     return (
         <div>
-            <a href={loginUrl}>Login to Spotify</a>
+            <a href={loginUrl}>Login to Flatify</a>
         </div>
     );
 }

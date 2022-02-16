@@ -277,6 +277,190 @@
       "favorite": false,
       "tracks": [],
       "id": 7
+    },
+    {
+      "title": "playlist1",
+      "favorite": false,
+      "tracks": [
+        {
+          "id": "5S9Zs5g9lTWnLIboN1pdlU",
+          "name": "Fingers Crossed",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/79AyR6ATpj2LTPxfb6FX50"
+              },
+              "href": "https://api.spotify.com/v1/artists/79AyR6ATpj2LTPxfb6FX50",
+              "id": "79AyR6ATpj2LTPxfb6FX50",
+              "name": "Lauren Spencer-Smith",
+              "type": "artist",
+              "uri": "spotify:artist:79AyR6ATpj2LTPxfb6FX50"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2737904dbff5b1dac889cdff376",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e027904dbff5b1dac889cdff376",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048517904dbff5b1dac889cdff376",
+                "width": 64
+              }
+            ]
+          }
+        },
+        {
+          "id": "27NovPIUIRrOZoCHxABJwK",
+          "name": "INDUSTRY BABY (feat. Jack Harlow)",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq"
+              },
+              "href": "https://api.spotify.com/v1/artists/7jVv8c5Fj3E9VhNjxT4snq",
+              "id": "7jVv8c5Fj3E9VhNjxT4snq",
+              "name": "Lil Nas X",
+              "type": "artist",
+              "uri": "spotify:artist:7jVv8c5Fj3E9VhNjxT4snq"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2LIk90788K0zvyj2JJVwkJ"
+              },
+              "href": "https://api.spotify.com/v1/artists/2LIk90788K0zvyj2JJVwkJ",
+              "id": "2LIk90788K0zvyj2JJVwkJ",
+              "name": "Jack Harlow",
+              "type": "artist",
+              "uri": "spotify:artist:2LIk90788K0zvyj2JJVwkJ"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273ba26678947112dff3c3158bf",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02ba26678947112dff3c3158bf",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851ba26678947112dff3c3158bf",
+                "width": 64
+              }
+            ]
+          }
+        },
+        {
+          "id": "7EkWXAI1wn8Ii883ecd9xr",
+          "name": "Freaks",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1gl0S9pS0Zw0qfa14rDD3D"
+              },
+              "href": "https://api.spotify.com/v1/artists/1gl0S9pS0Zw0qfa14rDD3D",
+              "id": "1gl0S9pS0Zw0qfa14rDD3D",
+              "name": "Surf Curse",
+              "type": "artist",
+              "uri": "spotify:artist:1gl0S9pS0Zw0qfa14rDD3D"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2739efda673310de265a2c1cf1f",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e029efda673310de265a2c1cf1f",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048519efda673310de265a2c1cf1f",
+                "width": 64
+              }
+            ]
+          }
+        }
+      ],
+      "id": 8
+    },
+    {
+      "title": "cool",
+      "favorite": false,
+      "tracks": [
+        {
+          "id": "4b1yxSdlumA8N4fEk4UOZp",
+          "name": "The Family Madrigal",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5PYToRCsrnvikZg3yl2JMr"
+              },
+              "href": "https://api.spotify.com/v1/artists/5PYToRCsrnvikZg3yl2JMr",
+              "id": "5PYToRCsrnvikZg3yl2JMr",
+              "name": "Stephanie Beatriz",
+              "type": "artist",
+              "uri": "spotify:artist:5PYToRCsrnvikZg3yl2JMr"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2Go6wC0GsnkVeRoVwh8rqX"
+              },
+              "href": "https://api.spotify.com/v1/artists/2Go6wC0GsnkVeRoVwh8rqX",
+              "id": "2Go6wC0GsnkVeRoVwh8rqX",
+              "name": "Olga Merediz",
+              "type": "artist",
+              "uri": "spotify:artist:2Go6wC0GsnkVeRoVwh8rqX"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3xLU748QxpTmIVaiNXXg0P"
+              },
+              "href": "https://api.spotify.com/v1/artists/3xLU748QxpTmIVaiNXXg0P",
+              "id": "3xLU748QxpTmIVaiNXXg0P",
+              "name": "Encanto - Cast",
+              "type": "artist",
+              "uri": "spotify:artist:3xLU748QxpTmIVaiNXXg0P"
+            }
+          ],
+          "album": {
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273e1ac646ed6f25125e2a77229",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02e1ac646ed6f25125e2a77229",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851e1ac646ed6f25125e2a77229",
+                "width": 64
+              }
+            ]
+          }
+        }
+      ],
+      "id": 9
     }
   ],
   "favorites": []
